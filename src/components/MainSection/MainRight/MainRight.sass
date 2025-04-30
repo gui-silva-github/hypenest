@@ -1,0 +1,109 @@
+.main-right
+    height: max-content
+    position: sticky
+    top: -18rem
+    bottom: 0
+
+    .messages
+        background: var(--color-white)
+        border-radius: var(--card-border-radius)
+        padding: var(--card-padding)
+
+        .message-top
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 1rem
+
+        .message-search-bar
+            display: flex
+            margin-bottom: 1rem
+            background: var(--color-light)
+            border-radius: var(--border-radius)
+            padding: var(--card-padding)
+            gap: .5rem
+
+
+            input[type="search"]
+                background: transparent
+                font-size: .9rem
+                color: var(--color-dark)
+
+        .message-categories
+            display: flex
+            margin-bottom: 1rem
+            justify-content: space-between
+            align-items: center
+
+            h6
+                font-weight: bold
+                width: 100%
+                font-size: .85rem
+                padding-bottom: .5rem
+                border-bottom: 4px solid var(--color-light)
+                text-align: center
+
+                &.active
+                    border-color: var(--color-primary)
+
+            .message-request
+                color: var(--color-primary)
+
+        .message
+            display: flex
+            gap: 1rem
+            margin-bottom: 1rem
+            align-items: start
+
+            &:last-child
+                margin-bottom: 0
+
+            p
+                font-size: .8rem
+
+            .profile-picture
+                position: relative
+                overflow: visible
+                height: 2.6rem
+                width: 2.6rem
+                
+                img
+                    border-radius: 50%
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+
+                .green-active
+                    width: .8rem
+                    height: .8rem
+                    background: var(--color-success)
+                    border-radius: 50%
+                    position: absolute
+                    bottom: 0
+                    right: 0
+
+    .firend-request
+        margin-top: 1rem
+
+        h4
+            color: var(--color-gray)
+            margin: 1rem 0
+
+        .request
+            background-color: var(--color-white)
+            padding: var(--card-padding)
+            border-radius: var(--card-border-radius)
+            margin-bottom: 1rem
+
+            .info
+                display: flex
+                gap: 1rem
+                margin-bottom: 1rem
+
+            .action
+                display: flex
+                gap: 1rem
+
+                .btn-danger
+                    background: var(--color-danger)
+                    color: var(--color-white)
