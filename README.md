@@ -1,4 +1,4 @@
-# 🌐 Hypenest - Protótipo de Rede Social com React e Sass
+# 🌐 Hypenest
 
 This repository contains a **React-based prototype of a social media platform**, refactored from a previous version initially built with **HTML**, **CSS**, and **Vanilla JavaScript** in [https://gui-silva-github.github.io/socialMedia/]. The goal was to rebuild the project **from scratch** using a **modern React workflow**, featuring **Hooks**, **component-based architecture**, and **Sass** for better styling management and scalability.
 
